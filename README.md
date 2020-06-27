@@ -4,8 +4,8 @@ Sprout is an app dedicated to providing essential knowledge and resources regard
 ## Features
 - Comprehensive list of common sprouts with additional information of their scientific name, image, description, nutritional benefits, and example recipes. 
 - Detailed instructions on how to grow with images accompanying each step. 
-- Recipe page that contains numerous recipe links and images of all sprouts listen in the app
-- About page discussing the the goals of the app creators, the app's purpose, and all the app's uses. Button to the pop-up disclaimer message is also provided here. 
+- Recipe page that contains numerous recipe links of all sprouts listed in the app.
+- About page discussing the goals of the app creators, the app's purpose, and all the app's uses. Button to the pop-up disclaimer message is also provided here. 
 
 ## Disclaimer
 This content should not be used as a substitute for medical advice or treatment for any health condition or problem. Any questions regarding your own health should be directed towards your own physician or other professional healthcare provider. 

@@ -10,13 +10,34 @@ import SwiftUI
 
 struct AppView: View {
     var body: some View {
-        TabView {
+        TabView() {
             HomeView()
                 .tabItem{
                     Image(systemName: "house")
+                        .font(.system(size: 30))
                     Text("Home")
             }
+            InstructionsView()
+                .tabItem{
+                    Image(systemName: "book.circle")
+                        .font(.system(size: 30))
+                    Text("How to Grow")
+            }
+            RecipeView()
+                .tabItem{
+                    Image(systemName: "book")
+                        .font(.system(size: 30))
+                    Text("Recipes")
+            }
+            AboutView()
+                .tabItem{
+                    Image(systemName: "info.circle")
+                        .font(.system(size: 30))
+                    Text("About")
+            }
         }
+        .tabBarOpaque()
+        .accentColor(Color("BrandPrimary"))
     }
 }
 

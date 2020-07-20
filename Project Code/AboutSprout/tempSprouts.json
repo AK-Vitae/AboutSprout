@@ -1,39 +1,43 @@
 
 [
-	{
+    {
         "id": "alfalfa",
-		"name": "Alfalfa",
+        "name": "Alfalfa",
         "nomenclature": "Medicago sativa",
-		"description": "Here will be the description of this sprout"
-	},
-	{
+        "description": "Here will be the description of this sprout",
+        "recipe": "https://github.com/AK-Vitae"
+    },
+    {
         "id": "broccoli",
-		"name": "Broccoli",
+        "name": "Broccoli",
         "nomenclature": "Brassica oleracea",
-		"description": "Here will be the description of this sprout"
-	},
-	{
-		"id": "fenugreek",
-		"name": "Fenugreek",
+        "description": "Here will be the description of this sprout Here will be the description of this sprout Here will be the description of this sprout Here will be the description of this sprout Here will be the description of this sprout Here will be the description of this sprout Here will be the description of this sprout Here will be the description of this sprout Here will be the description of this sprout Here will be the description of this sprout Here will be the description of this sprout",
+        "recipe": "https://github.com/AK-Vitae"
+    },
+    {
+        "id": "fenugreek",
+        "name": "Fenugreek",
         "nomenclature": "Trigonella foenum-graecum",
-		"description": "Here will be the description of this sprout"
-	},
-	{
-		"id": "mung bean",
-		"name": "Mung Bean",
+        "description": "Here will be the description of this sprout",
+        "recipe": "https://github.com/AK-Vitae"
+    },
+    {
+        "id": "mung bean",
+        "name": "Mung Bean",
         "nomenclature": "Vigna radiata",
-		"description": "Here will be the description of this sprout"
-	},
-	{
-		"id": "radish",
-		"name": "Radish",
+        "description": "Here will be the description of this sprout",
+        "recipe": "https://github.com/AK-Vitae"	},
+    {
+        "id": "radish",
+        "name": "Radish",
         "nomenclature": "Raphanus sativus",
-		"description": "Here will be the description of this sprout"
-	},
-	{
-		"id": "soybean",
-		"name": "Soybean",
+        "description": "Here will be the description of this sprout",
+        "recipe": "https://github.com/AK-Vitae"	},
+    {
+        "id": "soybean",
+        "name": "Soybean",
         "nomenclature": "Glycine max",
-		"description": "Here will be the description of this sprout"
-	}
+        "description": "Here will be the description of this sprout",
+        "recipe": "https://github.com/AK-Vitae"	}
+    
 ]

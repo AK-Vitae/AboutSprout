@@ -13,6 +13,7 @@ struct Sprout: Identifiable, Codable {
     let name: String
     let nomenclature: String
     let description: String
+    let recipe: String
     
     var displayName: String {
         "\(id.capitalized)"

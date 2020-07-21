@@ -18,9 +18,9 @@ struct SproutView: View {
                         .renderingMode(.original)
                         .resizable()
                         .frame(maxWidth: geometry.size.width*0.25, maxHeight: geometry.size.height*0.15)
-                        .scaledToFit()
+                        .scaledToFill()
                         .clipShape(RoundedRectangle(cornerRadius: 25))
-                        .shadow(color: Color.black, radius: 8, x: 0, y: 6)
+                        .shadow(color: Color.black, radius: 4, x: 0, y: 0)
                         .padding(.leading)
                         .padding(.top)
                         .padding(.bottom)
@@ -36,9 +36,9 @@ struct SproutView: View {
                     }
                     .padding()
                 }
-                .background(Color("BrandPrimary"))
+                .background(Color(red: 0.31, green: 0.85, blue: 0.56, opacity: 100))
                 .cornerRadius(8)
-                .shadow(color: .gray,radius: 1, x: 0, y: 6)
+                .shadow(color: .gray,radius: 4, x: 0, y: 0)
                 .padding(.leading, 10)
                 .padding(.trailing, 10)
                 
@@ -46,9 +46,9 @@ struct SproutView: View {
                     .bold()
                 .padding()
                 .fixedSize(horizontal: false, vertical: true)
-                    .background(Color("BrandPrimary"))
+                    .background(Color(red: 0.31, green: 0.85, blue: 0.56, opacity: 100))
                     .cornerRadius(8)
-                    .shadow(color: .gray,radius: 1, x: 0, y: 6)
+                    .shadow(color: .gray,radius: 4, x: 0, y: 0)
                     .padding(.leading, 10)
                     .padding(.trailing, 10)
             }

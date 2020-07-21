@@ -24,7 +24,7 @@ struct HomeView: View {
                     }
                 }
                 .background(Color.white)
-                .navigationBarColor(UIColor(named:"BrandPrimary"))
+                .navigationBarColor(UIColor(red: 0.31, green: 0.85, blue: 0.56, alpha: 100))
                 .navigationBarTitle(Text("Sprouts"), displayMode: .large)
             }
             

@@ -9,21 +9,21 @@
 import SwiftUI
 
 struct InstructionsView: View {
-    let sprouts: [Sprout] = Bundle.main.decode("tempSprouts.json")
+    let instructions: [Instruction] = Bundle.main.decode("steps.json")
     var body: some View {
         GeometryReader { geo in
             NavigationView {
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack(spacing: 30){
-                        ForEach(self.sprouts) { sprout in
-                                InstructionCardView(sprout: sprout)
+                        ForEach(self.instructions) { instruction in
+                                InstructionCardView(instruction: instruction)
                                     .padding(.top, 25)
                                     .padding(.leading, 10)
                         }
                     }
                 }
                 .background(Color.white)
-                .navigationBarColor(UIColor(named:"BrandPrimary"))
+                .navigationBarColor(UIColor(red: 0.31, green: 0.85, blue: 0.56, alpha: 100))
                 .navigationBarTitle(Text("How to Grow"), displayMode: .large)
             }
             

@@ -9,33 +9,37 @@
 import SwiftUI
 
 struct InstructionCardView: View {
-    let sprout: Sprout
+    let instruction: Instruction
     var body: some View {
         VStack {
             VStack(alignment: .center, spacing: 20) {
                 HStack(alignment: .center, spacing: 5){
-                    Text("Step 1")
+                    Text("Step \(instruction.id)")
                         .font(.system(.largeTitle))
                         .fontWeight(.bold)
                         .frame(width: 220)
                         .background(
                             RoundedRectangle(cornerRadius: 12)
-                                .fill(LinearGradient(gradient: Gradient(colors: [Color.white,Color("BrandPrimary")]), startPoint: .top, endPoint: .bottom))
-                                .shadow(color: Color.black, radius: 8, x: 0, y: 0)
+                                .fill(LinearGradient(gradient: Gradient(colors: [Color.white,Color(red: 0.31, green: 0.85, blue: 0.56, opacity: 100)]), startPoint: .top, endPoint: .bottom))
+                                .shadow(color: Color.black, radius: 4, x: 0, y: 0)
                     )
                         .padding(.top)
                 }
-                Text("In the evening pour about 3 tablespoons of sprouting seeds into the bottom of your quart jar. Put the sprouting screen in place and screw on the canning ring. Pour about two cups of non-chlorinated water through the sprout screen. Swirl the seeds, drain, and then cover again with 2-4 cups of water. Place jar on your counter top until the morning.")
+                Text(instruction.displayInstruction)
                     .fontWeight(.bold)
                     .fixedSize(horizontal: false, vertical: true)
+                Spacer()
             }
             .padding(.bottom, 150)
+            .padding(.leading)
+            .padding(.trailing)
             //.zIndex(0)
-            .multilineTextAlignment(.center)
-            .frame(width: 320, alignment: .center)
-            .background(Color("BrandPrimary"))
+            .multilineTextAlignment(.leading)
+                //.frame(width: 320, height: 400, alignment: .center)
+                .frame(minWidth: 320, maxWidth: 320, minHeight: 400, maxHeight: 400)
+            .background(Color(red: 0.31, green: 0.85, blue: 0.56, opacity: 100))
             .cornerRadius(25)
-            .shadow(color: Color.black, radius: 8, x: 0, y: 0)
+            .shadow(color: Color.black, radius: 4, x: 0, y: 0)
             Spacer()
             //.frame(maxWidth: 300)
             //
@@ -58,9 +62,9 @@ struct InstructionCardView: View {
 }
 
 struct InstructionCardView_Previews: PreviewProvider {
-    static let sprouts: [Sprout] = Bundle.main.decode("tempSprouts.json")
+    static let instructions: [Instruction] = Bundle.main.decode("steps.json")
     static var previews: some View {
-        InstructionCardView(sprout: sprouts[1])
+        InstructionCardView(instruction: instructions[2])
             //.previewLayout(.sizeThatFits)
     }
 }

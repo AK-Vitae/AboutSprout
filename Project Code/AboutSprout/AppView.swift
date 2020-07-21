@@ -19,7 +19,7 @@ struct AppView: View {
             }
             InstructionsView()
                 .tabItem{
-                    Image(systemName: "book.circle")
+                    Image(systemName: "list.number")
                         .font(.system(size: 30))
                     Text("How to Grow")
             }
@@ -37,7 +37,7 @@ struct AppView: View {
             }
         }
         .tabBarOpaque()
-        .accentColor(Color("BrandPrimary"))
+        .accentColor(Color(red: 0.31, green: 0.85, blue: 0.56, opacity: 100))
     }
 }
 

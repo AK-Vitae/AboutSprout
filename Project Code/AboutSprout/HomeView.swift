@@ -11,22 +11,25 @@ import SwiftUI
 struct HomeView: View {
     let sprouts: [Sprout] = Bundle.main.decode("tempSprouts.json")
     var body: some View {
-        NavigationView {
-            List(sprouts) { sprout in
-                NavigationLink(destination: SproutView(sprout: sprout)) {
-                    Image(sprout.image)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 75, height: 75)
-                    
-                    VStack(alignment: .leading) {
-                        Text(sprout.displayName)
-                            .font(.headline)
+        GeometryReader { geo in
+            NavigationView {
+                ScrollView(.vertical, showsIndicators: false){
+                    Spacer()
+                    VStack(alignment: .leading, spacing: 10){
+                        ForEach(self.sprouts) { sprout in
+                            NavigationLink(destination: SproutView(sprout: sprout)) {
+                                SproutRow(sprout: sprout)
+                            }
+                        }
                     }
                 }
+                .background(Color.white)
+                .navigationBarColor(UIColor(named:"BrandPrimary"))
+                .navigationBarTitle(Text("Sprouts"), displayMode: .large)
             }
-            .navigationBarTitle("Sprouts")
+            
         }
+        
     }
 }
 

@@ -35,7 +35,7 @@ struct NavigationBarModifier: ViewModifier {
                     Color(self.backgroundColor ?? .clear)
                         .frame(height: geometry.safeAreaInsets.top)
                         .edgesIgnoringSafeArea(.top)
-                        .shadow(color: .gray,radius: 1, x: 0, y: 6)
+                        .shadow(color: .gray,radius: 4, x: 0, y: 0)
                     Spacer()
                 }
             }

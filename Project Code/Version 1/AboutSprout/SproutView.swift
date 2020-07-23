@@ -36,7 +36,7 @@ struct SproutView: View {
                     }
                     .padding()
                 }
-                .background(Color(red: 0.31, green: 0.85, blue: 0.56, opacity: 100))
+                .background(Color("sproutGreen"))
                 .cornerRadius(8)
                 .shadow(color: .gray,radius: 4, x: 0, y: 0)
                 .padding(.leading, 10)
@@ -44,9 +44,9 @@ struct SproutView: View {
                 
                 Text(self.sprout.description)
                     .bold()
-                .padding()
-                .fixedSize(horizontal: false, vertical: true)
-                    .background(Color(red: 0.31, green: 0.85, blue: 0.56, opacity: 100))
+                    .padding()
+                    .fixedSize(horizontal: false, vertical: true)
+                    .background(Color("sproutGreen"))
                     .cornerRadius(8)
                     .shadow(color: .gray,radius: 4, x: 0, y: 0)
                     .padding(.leading, 10)

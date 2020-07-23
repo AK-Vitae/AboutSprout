@@ -37,7 +37,7 @@ struct AppView: View {
             }
         }
         .tabBarOpaque()
-        .accentColor(Color(red: 0.31, green: 0.85, blue: 0.56, opacity: 100))
+        .accentColor(Color("sproutGreen"))
     }
 }
 

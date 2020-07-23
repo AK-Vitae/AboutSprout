@@ -21,7 +21,7 @@ struct SproutRow: View {
                     .scaledToFit()
                     .clipShape(RoundedRectangle(cornerRadius: cornerRadius))
                     .overlay(RoundedRectangle(cornerRadius: cornerRadius)
-                            .stroke(Color(red: 0.31, green: 0.85, blue: 0.56, opacity: 100), lineWidth: 1))
+                            .stroke(Color("sproutGreen"), lineWidth: 1))
                     .padding()
                 
                 // MARK: - Sprout Name and Scientific Name
@@ -38,12 +38,12 @@ struct SproutRow: View {
                 
                 // MARK: - Chevron symbol
                 Image(systemName: "chevron.right")
-                    .foregroundColor(Color(red: 0.31, green: 0.85, blue: 0.56, opacity: 100))
+                    .foregroundColor(Color("sproutGreen"))
                     .padding(.trailing)
             }
             // MARK: - Background, Shadow, and Formatting
             .background(Color.white)
-            .border(Color(red: 0.31, green: 0.85, blue: 0.56, opacity: 100), width: 4)
+            .border(Color("sproutGreen"), width: 4)
             .cornerRadius(8)
             .shadow(color: .gray,radius: 4, x: 0, y: 0)
             .padding(.leading, 10)

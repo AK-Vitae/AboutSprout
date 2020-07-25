@@ -1,43 +1,51 @@
 
 [
-    {
-        "id": "alfalfa",
+{
+ "id": "adzuki bean",
+        "name": "Adzuki Bean",
+        "nomenclature": "Vigna angularis",
+        "description": "Adzuki beans are some of the reddest in the sprout world, and they retain their bright color even after sprouting. They have a delicious hazelnut and boiled bean flavor that adds a fresh touch to any dish. When sprouting, you'll know they are ready when their white tip reaches 1.5 cm in height. They contain high amounts of fiber, protein, and complex carbs. Also, they have antioxidants that fight aging and diseases.",
+        "recipe": "https://gardentowok.wordpress.com/2013/01/25/cooking-with-adzuki-bean-sprouts-adzuki-bean-sprouts-winter-root-vegetables-stew/"	
+},
+{
+"id": "alfalfa",
         "name": "Alfalfa",
         "nomenclature": "Medicago sativa",
-        "description": "Here will be the description of this sprout.",
-        "recipe": "https://github.com/AK-Vitae"
-    },
-    {
-        "id": "broccoli",
+        "description": "Alfalfa sprouts have long white stems that grow to around 5-12 cm long and two delicate leaves that range from yellow, brown, or green. Along with their crispy texture, alfalfa sprouts bear a sweet, nutty flavor. They're also rich with vitamins K and C and contain potassium, calcium, magnesium, and iron. Their high concentration of phytoestrogens and saponins has proven to help prevent heart disease, improve cholesterol health, and boost the immune system.",
+        "recipe": "https://www.yummly.com/recipes?q=cooking%20alfalfa%20sprouts&gs=78f904" 
+},
+{
+"id": "broccoli",
         "name": "Broccoli",
-        "nomenclature": "Brassica oleracea",
-        "description": "Here will be the description of this sprout.",
-        "recipe": "https://github.com/AK-Vitae"
+        "nomenclature": "Brassica oleracea var. italica",
+        "description": "Although they are essentially the baby form of broccoli, broccoli sprouts are very different in flavor and texture. They have a clean and fresh grassy flavor that has shown to be a delightful alternative for individuals who dislike broccoli. Moreover, broccoli sprouts are high in sulforaphane, a chemical that has a multitude of health benefits. Broccoli sprouts are often consumed to treat prostate cancer, high cholesterol, allergies, asthma, and bacteria-caused stomach ulcers.",
+        "recipe": "https://www.yummly.com/recipes?q=fresh%20broccoli%20sprouts&gs=2a6ab8"
+},
+{
+"id": "red cabbage",
+        "name": "Red Cabbage",
+        "nomenclature": "Brassica oleracea var. capitata f. rubra",
+        "description": "Red cabbage sprouts are purple and brown and grow a sprout stem that reaches 5-12 cm in height. They are famous for their fresh and sweet flavor that is slightly bitter. In addition, they have a crunchy texture that goes well with salads and sandwiches. In terms of nutrition, red cabbage sprouts are consumed for stomach protection and their rich antioxidant content.",
+        "recipe": "https://recipes.timesofindia.com/us/recipes/cabbage-sprouts/rs58819606.cms"
     },
     {
-        "id": "fenugreek",
+"id": "fenugreek",
         "name": "Fenugreek",
         "nomenclature": "Trigonella foenum-graecum",
-        "description": "Here will be the description of this sprout.",
-        "recipe": "https://github.com/AK-Vitae"
-    },
-    {
-        "id": "mung bean",
+        "description": "Fenugreek sprouts are famous for their nutritional content. While they contain an abundance of minerals, the standout is undoubtedly iron. In one cup of fenugreek seeds, 8 milligrams of iron is provided, meaning much of a person's daily iron consumption can be derived solely from fenugreek. Moreover, fenugreek is rich in fiber and can help lower blood pressure and cholesterol, promote healthy blood sugar, and boost weight loss. Last but not least, fenugreek has a high protein content that supports skin, muscle, cartilage, and healthy bone production.",
+        "recipe": "https://sproutpeople.org/fenugreek-curry/"
+},
+{
+"id": "lentil",
+        "name": "Lentil",
+        "nomenclature": "Lens culinaris",
+        "description": "Lentil sprouts have an earthy, slightly peppery taste that fits perfectly with other fresh vegetables. Sprouting lentils boosts their nutritional content, especially with vitamins B and C. Lentil sprouts also pack a nutritional punch with their macronutrients of proteins, carbohydrates, and fats and their minerals of copper and zinc. They are often consumed to help improve eyesight, treat anemia, strengthen hair, assist digestion, improve skin health, and prevent erectile dysfunction.",
+        "recipe": "https://traditionalcookingschool.com/food-preparation/recipes/3-dishes-from-sprouted-lentils/"	
+},
+{
+"id": "mung bean",
         "name": "Mung Bean",
         "nomenclature": "Vigna radiata",
         "description": "Here will be the description of this sprout.",
-        "recipe": "https://github.com/AK-Vitae"	},
-    {
-        "id": "radish",
-        "name": "Radish",
-        "nomenclature": "Raphanus sativus",
-        "description": "Here will be the description of this sprout.",
-        "recipe": "https://github.com/AK-Vitae"	},
-    {
-        "id": "soybean",
-        "name": "Soybean",
-        "nomenclature": "Glycine max",
-        "description": "Here will be the description of this sprout.",
         "recipe": "https://github.com/AK-Vitae"	}
-    
 ]

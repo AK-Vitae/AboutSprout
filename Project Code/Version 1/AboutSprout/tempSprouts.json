@@ -40,56 +40,56 @@
         "name": "Lentil",
         "nomenclature": "Lens culinaris",
         "description": "Lentil sprouts have an earthy, slightly peppery taste that fits perfectly with other fresh vegetables. Sprouting lentils boosts their nutritional content, especially with vitamins B and C. Lentil sprouts also pack a nutritional punch with their macronutrients of proteins, carbohydrates, and fats and their minerals of copper and zinc. They are often consumed to help improve eyesight, treat anemia, strengthen hair, assist digestion, improve skin health, and prevent erectile dysfunction.",
-        "recipe": "https://traditionalcookingschool.com/food-preparation/recipes/3-dishes-from-sprouted-lentils/"	
+        "recipe": "https://www.yummly.com/recipes?q=sprouted+lentils&taste-pref-appended=true"	
 },
 {
 "id": "mung bean",
         "name": "Mung Bean",
         "nomenclature": "Vigna radiata",
         "description": "Originating in India, mung beans have spread around the world to share their plentiful nutritional benefits. When sprouted, mung beans increase their capacity of essential amino acids and antioxidants. This improves their ability to lower chronic disease risk by neutralizing harmful molecules known as free radicals. In addition, they are also used to prevent heatstroke, lower bad LDL cholesterol levels, and even reduce blood pressure. However, besides nutritional benefits, mung beans also taste good with their fresh and slightly sweet flavor that pairs wells with salads, soups, and stir-frys.",
-        "recipe": "https://github.com/AK-Vitae"	
+        "recipe": "https://www.yummly.com/recipes?q=mung+bean+sprouts&taste-pref-appended=true"	
 },
 {
 "id": "onion",
         "name": "Onion",
         "nomenclature": "Allium cepa",
         "description": "Onion sprouts are famous for their black bases and long stems. They have a high nutritional value, as they are rich in vitamins A, B, C, and E and have minerals like calcium, iron, magnesium, niacin, phosphorus, potassium, and zinc. Onion sprouts are often consumed by individuals that wish to increase enzymatic activity in their body, prevent anemia, lower cholesterol, reduce blood pressure, and lose weight. As for taste, they have a nutty and slightly sweet flavor and are less pungent than a full-grown onion. They have a texture that is delicate and crunchy.",
-        "recipe": "https://github.com/AK-Vitae"	
+        "recipe": "https://www.yummly.com/recipes?q=onion+sprouts&taste-pref-appended=true"	
 },
 {
 "id": "radish",
         "name": "Radish",
         "nomenclature": "Raphanus sativus",
         "description": "Radish sprouts have an exciting spicy flavor that can bring some heat to any dish. They are packed with vitamins A, B, C, E, and K and have certain minerals like calcium iron, magnesium, phosphorus, potassium, and zinc. They are also known for their cancer-fighting properties due to their high concentration of essential amino acids and chlorophyll. Radish sprouts are visually appealing as well, with their beautiful pink stems.",
-        "recipe": "https://github.com/AK-Vitae"	
+        "recipe": "https://www.yummly.com/recipes?q=radish%20sprouts&gs=0dc1e6"	
 },
 {
 "id": "red clover",
         "name": "Red Clover",
         "nomenclature": "trifolium pratense",
         "description": "Red clover sprouts are regarded as the new alfalfa, with their similar appearance and taste. Although they have a mild flavor and crunch, they are packed with nutritional benefits. They contain vitamins A, B, C, E and K and minerals like calcium, iron, magnesium, phosphorus, potassium, and zinc. Red clover sprouts are said to have beneficial effects on breast and prostate cancers, menopausal symptoms, osteoporosis, stroke, and neurodegeneration. Red clover sprouts are especially useful for treating cancer, as they are rich in genistein, a compound that prevents new blood vessels from forming in tumors.",
-        "recipe": "https://github.com/AK-Vitae"	
+        "recipe": "https://www.avogel.co.uk/food/recipes/mixed-bean-salad-with-little-radish-&-red-clover-sprouts/"	
 },
 {
 "id": "soybean",
         "name": "Soybean",
         "nomenclature": "Glycine max",
         "description": "Soybean sprouts are popular in Asian cuisine, especially in Korea. They possess nutritional components like riboflavin, isoflavones, niacin, amino acids, crude proteins, and lipids. They also have an abundant mineral collection, with minerals like zinc, sodium, potassium, copper, phosphorus, iron, manganese, and magnesium. Soybean sprouts are often consumed to reduce the risk of cancer and cardiovascular diseases due to their antioxidant properties. In general, soybean sprouts have a nutty taste and thick stems that suit well in curries and soups.",
-        "recipe": "https://github.com/AK-Vitae"	
+        "recipe": "https://www.yummly.com/recipes?q=soybean+sprouts&taste-pref-appended=true"	
 },
 {
 "id": "sunflower",
         "name": "Sunflower",
         "nomenclature": "Helianthus annuus L.",
         "description": "Sunflower sprouts have multiple nutritional benefits. To start, they have high amounts of zinc, which can help boost fertility levels in men. Moreover, they are rich in folate, a necessary B vitamin essential for developing nervous systems. They also have high amounts of vitamin E, which can work with vitamin C in our bodies to reduce blood pressure and prevent heart disease. Finally, sunflower sprouts are also a great source of vegetarian protein. Sunflower sprouts have a great taste, with a blend of nuttiness and a slight lemon flavor.",
-        "recipe": "https://github.com/AK-Vitae"	
+        "recipe": "https://www.yummly.com/recipes?q=sunflower+sprouts+&taste-pref-appended=true"	
 },
 {
 "id": "wheatgrass",
         "name": "Wheatgrass",
         "nomenclature": "Thinopyrum intermedium",
         "description": "Wheatgrass has taken the "superfood" market by storm with the widespread consumption of wheatgrass shots. If made right, wheatgrass can have a slightly sweet taste, similar to green tea. Its nutritional benefits are also essential to notice, as it contains high amounts of iron, calcium, magnesium, phytonutrients, and proteins. They also provide many vitamins, like vitamins A, C, E, K, and B. Individuals often consume wheatgrass as it aids in digestion, boosts metabolism, lowers cholesterol, improves the immune system, lowers blood pressure, and in general, provides more energy.",
-        "recipe": "https://github.com/AK-Vitae"	
+        "recipe": "https://www.yummly.com/recipes?q=wheatgrass&taste-pref-appended=true"	
 },
 {
 "id": "mung bean",

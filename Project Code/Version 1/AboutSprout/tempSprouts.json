@@ -15,6 +15,13 @@
         "recipe": "https://www.yummly.com/recipes?q=cooking%20alfalfa%20sprouts&gs=78f904" 
 },
 {
+"id": "black bean",
+        "name": "Black Bean",
+        "nomenclature": "Phaseolus vulgaris",
+        "description": "Here will be the description of this sprout.",
+        "recipe": "https://www.culturesforhealth.com/learn/recipe/sprouting-recipes/sprouted-black-bean-soup/"	
+},
+{
 "id": "broccoli",
         "name": "Broccoli",
         "nomenclature": "Brassica oleracea var. italica",

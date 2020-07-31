@@ -43,6 +43,13 @@
         "recipe": "https://sproutpeople.org/fenugreek-curry/"
 },
 {
+"id": "garbanzo bean",
+        "name": "Garbanzo Bean",
+        "nomenclature": "Cicer arietinum",
+        "description": "Here will be the description of this sprout.",
+        "recipe": "https://thehealthyfoodie.com/raw-sprouted-chickpea-hummus/e"	
+},
+{
 "id": "lentil",
         "name": "Lentil",
         "nomenclature": "Lens culinaris",

@@ -5,10 +5,10 @@ AboutSprout is an app dedicated to providing essential knowledge and resources r
 Thousands of solutions and ideas have been circulating with aims to alleviate the progression of COVID-19 in our nation and on a global scale. Although this is a necessary and definite crisis we need to consider and invest time into, many other problems have risen from COVID-19 that have been overshadowed. For example, due to extensive isolation, many individuals don't have the means or the ability to obtain necessary produce and consume vital nutrients because of the lack of trips to supermarkets. As a result, malnutrition becomes a severe issue during this current period of extensive isolation. AboutSprout hopes to alleviate this issue by reminding society of the relatively unknown benefits of sprouts. Their effortless preparation and boundless recipe possibilities make them a wonderful option during these turbulent times we all are experiencing. 
 
 ## Features
-- Comprehensive list of common sprouts with additional information of their scientific name, image, description, nutritional benefits, and example recipes. 
+- Comprehensive list of common sprouts with additional information of their scientific name, image, description, nutritional benefits, and example recipes. Favoriting feature is also available to highlight most used sprouts. 
 - Detailed instructions on how to grow with images accompanying each step. 
 - Recipe page that contains numerous recipe links of all sprouts listed in the app.
-- About page discussing the goals of the app creators, the app's purpose, and all the app's uses. Button to the pop-up disclaimer message is also provided here.
+- About page discussing the goals of the app creators, the app's purpose, and all the app's uses. Disclaimer message is located below on the page. 
 - Navigate through the four pages with an easy-to-use menu bar situated on the bottom of the app. 
 
 ## Installation Instructions

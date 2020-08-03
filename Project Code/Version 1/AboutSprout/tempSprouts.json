@@ -29,25 +29,18 @@
         "recipe": "https://www.yummly.com/recipes?q=fresh%20broccoli%20sprouts&gs=2a6ab8"
 },
 {
-"id": "red cabbage",
-        "name": "Red Cabbage",
-        "nomenclature": "Brassica oleracea var. capitata f. rubra",
-        "description": "Red cabbage sprouts are purple and brown and grow a sprout stem that reaches 5-12 cm in height. They are famous for their fresh and sweet flavor that is slightly bitter. In addition, they have a crunchy texture that goes well with salads and sandwiches. In terms of nutrition, red cabbage sprouts are consumed for stomach protection and their rich antioxidant content.",
-        "recipe": "https://recipes.timesofindia.com/us/recipes/cabbage-sprouts/rs58819606.cms"
-    },
-    {
+"id": "garbanzo bean",
+        "name": "Garbanzo Bean",
+        "nomenclature": "Cicer arietinum",
+        "description": "Chickpea sprouts (A.K.A. garbanzo bean sprouts) taste great when cooked into soups or veggie burgers. They are also commonly blended to make a quick and tasty hummus. In terms of nutrition, one cup of chickpea sprouts offers 84 grams of carbs, 36 grams of protein, 8 grams of fat, and substantial quantities of vitamin C and iron. Interestingly, sprouting chickpeas increase their isoflavone content. Isoflavone mimics the hormone estrogen, and it helps in reducing menopausal symptoms in women. Further research has shown that chickpea sprouts minimize bone loss, lower cholesterol and triglyceride levels, and increase HDL (good) cholesterol levels. These benefits suggest they are useful for individuals with diseases such as osteoporosis or heart disease.",
+        "recipe": "https://thehealthyfoodie.com/raw-sprouted-chickpea-hummus/e"	
+},
+{
 "id": "fenugreek",
         "name": "Fenugreek",
         "nomenclature": "Trigonella foenum-graecum",
         "description": "Fenugreek sprouts are famous for their nutritional content. While they contain an abundance of minerals, the standout is undoubtedly iron. In one cup of fenugreek seeds, 8 milligrams of iron is provided, meaning much of a person's daily iron consumption can be derived solely from fenugreek. Moreover, fenugreek is rich in fiber and can help lower blood pressure and cholesterol, promote healthy blood sugar, and boost weight loss. Last but not least, fenugreek has a high protein content that supports skin, muscle, cartilage, and healthy bone production.",
         "recipe": "https://sproutpeople.org/fenugreek-curry/"
-},
-{
-"id": "garbanzo bean",
-        "name": "Garbanzo Bean",
-        "nomenclature": "Cicer arietinum",
-        "description": "Garbanzo bean sprouts (A.K.A. chickpea sprouts) taste great when cooked into soups or veggie burgers. They are also commonly blended to make quick and tasty hummus. In terms of nutrition, one cup of garbanzo bean sprouts offers 84 grams of carbs, 36 grams of protein, 8 grams of fat, and substantial quantities of vitamin C and iron. Interestingly, sprouting garbanzo beans increases their isoflavone content. Isoflavone mimics the hormone estrogen, and it helps in reducing menopausal symptoms in women. Further research has shown the garbanzo bean sprouts minimize bone loss, lower cholesterol and triglyceride levels, and increase HDL (good) cholesterol levels. These benefits suggest they are useful for individuals with diseases such as osteoporosis or heart disease.",
-        "recipe": "https://thehealthyfoodie.com/raw-sprouted-chickpea-hummus/e"	
 },
 {
 "id": "lentil",
@@ -76,6 +69,13 @@
         "nomenclature": "Raphanus sativus",
         "description": "Radish sprouts have an exciting spicy flavor that can bring some heat to any dish. They are packed with vitamins A, B, C, E, and K and have certain minerals like calcium iron, magnesium, phosphorus, potassium, and zinc. They are also known for their cancer-fighting properties due to their high concentration of essential amino acids and chlorophyll. Radish sprouts are visually appealing as well, with their beautiful pink stems.",
         "recipe": "https://www.yummly.com/recipes?q=radish%20sprouts&gs=0dc1e6"	
+},
+{
+"id": "red cabbage",
+        "name": "Red Cabbage",
+        "nomenclature": "Brassica oleracea var. capitata f. rubra",
+        "description": "Red cabbage sprouts are purple and brown and grow a sprout stem that reaches 5-12 cm in height. They are famous for their fresh and sweet flavor that is slightly bitter. In addition, they have a crunchy texture that goes well with salads and sandwiches. In terms of nutrition, red cabbage sprouts are consumed for stomach protection and their rich antioxidant content.",
+        "recipe": "https://recipes.timesofindia.com/us/recipes/cabbage-sprouts/rs58819606.cms"
 },
 {
 "id": "red clover",

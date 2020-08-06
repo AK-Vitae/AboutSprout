@@ -64,6 +64,13 @@
         "recipe": "https://www.yummly.com/recipes?q=onion+sprouts&taste-pref-appended=true"	
 },
 {
+"id": "pea",
+        "name": "Pea",
+        "nomenclature": "pisum sativum",
+        "description": "Here will be the description of this sprout.",
+        "recipe": "https://github.com/AK-Vitae"	
+},
+{
 "id": "radish",
         "name": "Radish",
         "nomenclature": "Raphanus sativus",

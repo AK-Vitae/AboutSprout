@@ -16,7 +16,7 @@ struct RecipeCardView: View {
                 .resizable()
                 .frame(width: 270, height: 270)
                 .scaledToFill()
-            VStack(alignment: .center, spacing: 12) {
+            VStack(alignment: .center) {
                 Text(sprout.displayName)
                     .font(.system(.title))
                     .fontWeight(.bold)
@@ -27,7 +27,7 @@ struct RecipeCardView: View {
                     .italic()
                 
             }
-            //.padding()
+            .padding()
         }
         .background(Color.white)
         .cornerRadius(12)

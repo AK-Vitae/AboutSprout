@@ -29,28 +29,35 @@ struct SproutView: View {
                             .fontWeight(.bold)
                             .font(.headline)
                         Text("\(self.sprout.nomenclature)")
-                            
                             .font(.subheadline)
                             .italic()
                             .fixedSize()
+                        
                     }
                     .padding()
+                    .fixedSize(horizontal: false, vertical: true)
                 }
                 .background(Color("sproutGreen"))
                 .cornerRadius(8)
                 .shadow(color: .gray,radius: 4, x: 0, y: 0)
                 .padding(.leading, 10)
                 .padding(.trailing, 10)
-                
                 Text(self.sprout.description)
                     .bold()
+                    
                     .padding()
                     .fixedSize(horizontal: false, vertical: true)
-                    .background(Color("sproutGreen"))
+                    .multilineTextAlignment(.center)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 8)
+                            .stroke(Color("sproutGreen"), lineWidth: 5)
+                            .shadow(color: .gray,radius: 4, x: 0, y: 0)
+                )
                     .cornerRadius(8)
-                    .shadow(color: .gray,radius: 4, x: 0, y: 0)
                     .padding(.leading, 10)
                     .padding(.trailing, 10)
+                
+                
             }
         }
     }

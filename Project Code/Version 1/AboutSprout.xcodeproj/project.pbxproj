@@ -69,6 +69,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		415C009824FD40F100872CAE /* Extensions & Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				41D3BD0124BFCA11000B8BD5 /* Bundle-Decodable.swift */,
+				4159C63324C35BD900001BD9 /* TabBarModifier.swift */,
+				4159C63124C35BBE00001BD9 /* ViewExtensions.swift */,
+			);
+			path = "Extensions & Modifiers";
+			sourceTree = "<group>";
+		};
 		41D3BCDD24BFC0CF000B8BD5 = {
 			isa = PBXGroup;
 			children = (
@@ -88,28 +98,26 @@
 		41D3BCE824BFC0CF000B8BD5 /* AboutSprout */ = {
 			isa = PBXGroup;
 			children = (
+				415C009824FD40F100872CAE /* Extensions & Modifiers */,
+				4159C6EF24C6892A00001BD9 /* steps.json */,
+				41D3BCFD24BFC90D000B8BD5 /* tempSprouts.json */,
+				41D3BCF724BFC0D0000B8BD5 /* Info.plist */,
+				41FC20A424C2127A0034F3B1 /* AboutView.swift */,
 				41D3BCE924BFC0CF000B8BD5 /* AppDelegate.swift */,
-				41D3BCEB24BFC0CF000B8BD5 /* SceneDelegate.swift */,
 				41FC209E24C000360034F3B1 /* AppView.swift */,
 				41D3BCED24BFC0CF000B8BD5 /* HomeView.swift */,
-				41D3BD0724BFDB5A000B8BD5 /* SproutView.swift */,
-				4159C6CD24C54B2400001BD9 /* SproutRow.swift */,
-				41FC20A824C233BA0034F3B1 /* RecipeView.swift */,
-				41FC20AA24C277710034F3B1 /* RecipeCardView.swift */,
-				4159C6C924C3E03A00001BD9 /* InstructionsView.swift */,
 				41FC20A624C212860034F3B1 /* InstructionCardView.swift */,
-				41FC20A424C2127A0034F3B1 /* AboutView.swift */,
+				4159C6C924C3E03A00001BD9 /* InstructionsView.swift */,
 				4159C62D24C357FA00001BD9 /* NavigationBarModifier.swift */,
-				4159C63324C35BD900001BD9 /* TabBarModifier.swift */,
-				4159C63124C35BBE00001BD9 /* ViewExtensions.swift */,
+				41FC20AA24C277710034F3B1 /* RecipeCardView.swift */,
+				41FC20A824C233BA0034F3B1 /* RecipeView.swift */,
+				41D3BCEB24BFC0CF000B8BD5 /* SceneDelegate.swift */,
+				4159C6CD24C54B2400001BD9 /* SproutRow.swift */,
+				41D3BD0724BFDB5A000B8BD5 /* SproutView.swift */,
+				4159C6F124C689BA00001BD9 /* Instruction.swift */,
+				41D3BCFF24BFC9AE000B8BD5 /* Sprout.swift */,
 				41D3BCEF24BFC0D0000B8BD5 /* Assets.xcassets */,
 				41D3BCF424BFC0D0000B8BD5 /* LaunchScreen.storyboard */,
-				41D3BCF724BFC0D0000B8BD5 /* Info.plist */,
-				41D3BCFD24BFC90D000B8BD5 /* tempSprouts.json */,
-				4159C6EF24C6892A00001BD9 /* steps.json */,
-				41D3BCFF24BFC9AE000B8BD5 /* Sprout.swift */,
-				4159C6F124C689BA00001BD9 /* Instruction.swift */,
-				41D3BD0124BFCA11000B8BD5 /* Bundle-Decodable.swift */,
 				41D3BCF124BFC0D0000B8BD5 /* Preview Content */,
 			);
 			path = AboutSprout;

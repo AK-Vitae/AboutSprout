@@ -12,7 +12,7 @@ Thousands of solutions and ideas have been circulating with aims to alleviate th
 - Navigate through the four pages with an easy-to-use menu bar situated on the bottom of the app. 
 
 ## Installation Instructions
-For now, AboutSprout can only be downloaded on IOS devices in the App Store as a mobile application. Note that the application is not suited for larger screens, like that of the iPad. 
+For now, AboutSprout can only be downloaded on IOS devices in the App Store as a mobile application. Note that the application is not yet optimized for larger screens, like that of the iPad. 
 
 ## Disclaimer
 This content should not be used as a substitute for medical advice or treatment for any health condition or problem. Any questions regarding your own health should be directed towards your own physician or other professional healthcare provider. 

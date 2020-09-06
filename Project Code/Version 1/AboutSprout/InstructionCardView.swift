@@ -35,13 +35,13 @@ struct InstructionCardView: View {
                     .lineLimit(nil)
                     .frame(width: 300, height: 120)
                 
-                Image("pngwave")
-                    .resizable()
-                    .frame(width: 150, height: 150, alignment: .center)
-                    .clipShape(RoundedRectangle(cornerRadius: 25))
-                    .overlay(RoundedRectangle(cornerRadius: 25)
-                        .stroke(Color("sproutGreen"), lineWidth: 4))
-                    .padding(.horizontal)
+//                Image("pngwave")
+//                    .resizable()
+//                    .frame(width: 150, height: 150, alignment: .center)
+//                    .clipShape(RoundedRectangle(cornerRadius: 25))
+//                    .overlay(RoundedRectangle(cornerRadius: 25)
+//                        .stroke(Color("sproutGreen"), lineWidth: 4))
+//                    .padding(.horizontal)
                 
                 Text("Tip: \(instruction.tip)")
                     .font(.footnote)
@@ -51,7 +51,7 @@ struct InstructionCardView: View {
                 Spacer()
             }
             .multilineTextAlignment(.center)
-            .frame(width: 320, height: 450, alignment: .center)
+            .frame(width: 320, height: 350, alignment: .center)
             .overlay(
                 RoundedRectangle(cornerRadius: 25)
                     .stroke(Color("sproutGreen"), lineWidth: 5)

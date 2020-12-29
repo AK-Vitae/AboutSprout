@@ -14,6 +14,11 @@
 		4159C6CE24C54B2400001BD9 /* SproutRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159C6CD24C54B2400001BD9 /* SproutRow.swift */; };
 		4159C6F024C6892A00001BD9 /* steps.json in Resources */ = {isa = PBXBuildFile; fileRef = 4159C6EF24C6892A00001BD9 /* steps.json */; };
 		4159C6F224C689BA00001BD9 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159C6F124C689BA00001BD9 /* Instruction.swift */; };
+		415AD5F32506A3D700155634 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415AD5F22506A3D700155634 /* RecipeData.swift */; };
+		415AD5F52506A41E00155634 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415AD5F42506A41E00155634 /* Recipe.swift */; };
+		415AD5F72506A4C900155634 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415AD5F62506A4C900155634 /* RecipeDetailView.swift */; };
+		415AD5F92506A9BE00155634 /* RecipeCardTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415AD5F82506A9BE00155634 /* RecipeCardTestView.swift */; };
+		415AD5FB2506B58700155634 /* RecipeTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415AD5FA2506B58700155634 /* RecipeTestView.swift */; };
 		41D3BCEA24BFC0CF000B8BD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D3BCE924BFC0CF000B8BD5 /* AppDelegate.swift */; };
 		41D3BCEC24BFC0CF000B8BD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D3BCEB24BFC0CF000B8BD5 /* SceneDelegate.swift */; };
 		41D3BCEE24BFC0CF000B8BD5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D3BCED24BFC0CF000B8BD5 /* HomeView.swift */; };
@@ -39,6 +44,11 @@
 		4159C6CD24C54B2400001BD9 /* SproutRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SproutRow.swift; sourceTree = "<group>"; };
 		4159C6EF24C6892A00001BD9 /* steps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = steps.json; sourceTree = "<group>"; };
 		4159C6F124C689BA00001BD9 /* Instruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
+		415AD5F22506A3D700155634 /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		415AD5F42506A41E00155634 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		415AD5F62506A4C900155634 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		415AD5F82506A9BE00155634 /* RecipeCardTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardTestView.swift; sourceTree = "<group>"; };
+		415AD5FA2506B58700155634 /* RecipeTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTestView.swift; sourceTree = "<group>"; };
 		41D3BCE624BFC0CF000B8BD5 /* AboutSprout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutSprout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D3BCE924BFC0CF000B8BD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41D3BCEB24BFC0CF000B8BD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,9 +79,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		415AFB32259AA7C3004FE76F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				415AD5F22506A3D700155634 /* RecipeData.swift */,
+				4159C6EF24C6892A00001BD9 /* steps.json */,
+				41D3BCFD24BFC90D000B8BD5 /* tempSprouts.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		415AFB33259AA811004FE76F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41FC209E24C000360034F3B1 /* AppView.swift */,
+				41D3BCED24BFC0CF000B8BD5 /* HomeView.swift */,
+				41FC20A624C212860034F3B1 /* InstructionCardView.swift */,
+				415AD5F82506A9BE00155634 /* RecipeCardTestView.swift */,
+				41FC20AA24C277710034F3B1 /* RecipeCardView.swift */,
+				415AD5F62506A4C900155634 /* RecipeDetailView.swift */,
+				415AD5FA2506B58700155634 /* RecipeTestView.swift */,
+				41FC20A824C233BA0034F3B1 /* RecipeView.swift */,
+				4159C6C924C3E03A00001BD9 /* InstructionsView.swift */,
+				4159C6CD24C54B2400001BD9 /* SproutRow.swift */,
+				41D3BD0724BFDB5A000B8BD5 /* SproutView.swift */,
+				41FC20A424C2127A0034F3B1 /* AboutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		415AFB34259AA90C004FE76F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41D3BCFF24BFC9AE000B8BD5 /* Sprout.swift */,
+				4159C6F124C689BA00001BD9 /* Instruction.swift */,
+				415AD5F42506A41E00155634 /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		415C009824FD40F100872CAE /* Extensions & Modifiers */ = {
 			isa = PBXGroup;
 			children = (
+				4159C62D24C357FA00001BD9 /* NavigationBarModifier.swift */,
 				41D3BD0124BFCA11000B8BD5 /* Bundle-Decodable.swift */,
 				4159C63324C35BD900001BD9 /* TabBarModifier.swift */,
 				4159C63124C35BBE00001BD9 /* ViewExtensions.swift */,
@@ -98,24 +148,13 @@
 		41D3BCE824BFC0CF000B8BD5 /* AboutSprout */ = {
 			isa = PBXGroup;
 			children = (
-				415C009824FD40F100872CAE /* Extensions & Modifiers */,
-				4159C6EF24C6892A00001BD9 /* steps.json */,
-				41D3BCFD24BFC90D000B8BD5 /* tempSprouts.json */,
 				41D3BCF724BFC0D0000B8BD5 /* Info.plist */,
-				41FC20A424C2127A0034F3B1 /* AboutView.swift */,
+				415AFB34259AA90C004FE76F /* Models */,
+				415AFB33259AA811004FE76F /* Views */,
+				415AFB32259AA7C3004FE76F /* Data */,
+				415C009824FD40F100872CAE /* Extensions & Modifiers */,
 				41D3BCE924BFC0CF000B8BD5 /* AppDelegate.swift */,
-				41FC209E24C000360034F3B1 /* AppView.swift */,
-				41D3BCED24BFC0CF000B8BD5 /* HomeView.swift */,
-				41FC20A624C212860034F3B1 /* InstructionCardView.swift */,
-				4159C6C924C3E03A00001BD9 /* InstructionsView.swift */,
-				4159C62D24C357FA00001BD9 /* NavigationBarModifier.swift */,
-				41FC20AA24C277710034F3B1 /* RecipeCardView.swift */,
-				41FC20A824C233BA0034F3B1 /* RecipeView.swift */,
 				41D3BCEB24BFC0CF000B8BD5 /* SceneDelegate.swift */,
-				4159C6CD24C54B2400001BD9 /* SproutRow.swift */,
-				41D3BD0724BFDB5A000B8BD5 /* SproutView.swift */,
-				4159C6F124C689BA00001BD9 /* Instruction.swift */,
-				41D3BCFF24BFC9AE000B8BD5 /* Sprout.swift */,
 				41D3BCEF24BFC0D0000B8BD5 /* Assets.xcassets */,
 				41D3BCF424BFC0D0000B8BD5 /* LaunchScreen.storyboard */,
 				41D3BCF124BFC0D0000B8BD5 /* Preview Content */,
@@ -215,10 +254,15 @@
 				41D3BD0824BFDB5A000B8BD5 /* SproutView.swift in Sources */,
 				4159C6CA24C3E03A00001BD9 /* InstructionsView.swift in Sources */,
 				4159C6F224C689BA00001BD9 /* Instruction.swift in Sources */,
+				415AD5F72506A4C900155634 /* RecipeDetailView.swift in Sources */,
+				415AD5F92506A9BE00155634 /* RecipeCardTestView.swift in Sources */,
 				4159C63224C35BBE00001BD9 /* ViewExtensions.swift in Sources */,
 				41FC20AB24C277710034F3B1 /* RecipeCardView.swift in Sources */,
 				41D3BCEC24BFC0CF000B8BD5 /* SceneDelegate.swift in Sources */,
 				41D3BCEE24BFC0CF000B8BD5 /* HomeView.swift in Sources */,
+				415AD5F32506A3D700155634 /* RecipeData.swift in Sources */,
+				415AD5FB2506B58700155634 /* RecipeTestView.swift in Sources */,
+				415AD5F52506A41E00155634 /* Recipe.swift in Sources */,
 				4159C6CE24C54B2400001BD9 /* SproutRow.swift in Sources */,
 				4159C62E24C357FA00001BD9 /* NavigationBarModifier.swift in Sources */,
 			);
@@ -357,6 +401,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"AboutSprout/Preview Content\"";
 				DEVELOPMENT_TEAM = DYCJ8VNG33;
 				ENABLE_PREVIEWS = YES;
@@ -378,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"AboutSprout/Preview Content\"";
 				DEVELOPMENT_TEAM = DYCJ8VNG33;
 				ENABLE_PREVIEWS = YES;

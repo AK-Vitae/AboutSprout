@@ -38,7 +38,7 @@ struct RecipeCardView: View {
 struct RecipeCardView_Previews: PreviewProvider {
     static let sprouts: [Sprout] = Bundle.main.decode("tempSprouts.json")
     static var previews: some View {
-        RecipeCardView(sprout: sprouts[1])
+        RecipeCardView(sprout: sprouts[0])
             .previewLayout(.sizeThatFits)
     }
 }

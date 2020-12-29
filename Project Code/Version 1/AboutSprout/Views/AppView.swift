@@ -23,7 +23,7 @@ struct AppView: View {
                         .font(.system(size: 30))
                     Text("How to Grow")
             }
-            RecipeView()
+            RecipeTestView()
                 .tabItem{
                     Image(systemName: "book")
                         .font(.system(size: 30))

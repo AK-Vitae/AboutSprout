@@ -211,7 +211,7 @@ let recipesData: [Recipe] = [
             "2 tortilla",
             "1/4 cup light cream cheese (whipped)",
             "1/2 English cucumber (thinly sliced, divided)",
-            "4 ounces smoked salmon (thinly sliced, divided)",
+            "4 ounces smoked salmon (thinly sliced)",
             "2 teaspoons capers",
             "2 radish sprouts (generous handfuls of)"
         ]

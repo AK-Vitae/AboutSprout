@@ -41,6 +41,7 @@ struct RecipeDetailView: View {
                                 Text(item)
                                     .font(.footnote)
                                     .multilineTextAlignment(.leading)
+                                    .fixedSize(horizontal: false, vertical: true)
                                 Divider()
                             }
                         }
@@ -53,12 +54,6 @@ struct RecipeDetailView: View {
                     
                     ForEach(recipe.instructions, id: \.self) { item in
                         VStack(alignment: .center, spacing: 5) {
-                            //                            Image(systemName: "chevron.down.circle")
-                            //                                .resizable()
-                            //                                .frame(width: 42, height: 42, alignment: .center)
-                            //                                .imageScale(.large)
-                            //                                .font(Font.title.weight(.ultraLight))
-                            //.foregroundColor(Color("ColorGreenAdaptive"))
                             Divider()
                             Text(item)
                                 .lineLimit(nil)

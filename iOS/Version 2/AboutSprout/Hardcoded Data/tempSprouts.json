@@ -1,0 +1,107 @@
+[
+{
+ "id": "adzuki bean",
+        "name": "Adzuki Bean",
+        "nomenclature": "Vigna angularis",
+        "description": "Adzuki beans are some of the reddest in the sprout world, and they retain their bright color even after sprouting. They have a delicious hazelnut and boiled bean flavor that adds a fresh touch to any dish. When sprouting, you'll know they are ready when their white tip reaches 1.5 cm in height. They contain high amounts of fiber, protein, and complex carbs. Also, they have antioxidants that fight aging and diseases.",
+        "recipe": "https://gardentowok.wordpress.com/2013/01/25/cooking-with-adzuki-bean-sprouts-adzuki-bean-sprouts-winter-root-vegetables-stew/"
+},
+{
+"id": "alfalfa",
+        "name": "Alfalfa",
+        "nomenclature": "Medicago sativa",
+        "description": "Alfalfa sprouts have long white stems that grow to around 5-12 cm long and two delicate leaves that range from yellow, brown, or green. Along with their crispy texture, alfalfa sprouts bear a sweet, nutty flavor. They're also rich with vitamins K and C and contain potassium, calcium, magnesium, and iron. Their high concentration of phytoestrogens and saponins has proven to help prevent heart disease, improve cholesterol health, and boost the immune system.",
+        "recipe": "https://www.yummly.com/recipes?q=cooking%20alfalfa%20sprouts&gs=78f904"
+},
+{
+"id": "broccoli",
+        "name": "Broccoli",
+        "nomenclature": "Brassica oleracea var. italica",
+        "description": "Although they are essentially the baby form of broccoli, broccoli sprouts are very different in flavor and texture. They have a clean and fresh grassy flavor that has shown to be a delightful alternative for individuals who dislike broccoli. Moreover, broccoli sprouts are high in sulforaphane, a chemical that has a multitude of health benefits. Broccoli sprouts are often consumed to treat prostate cancer, high cholesterol, allergies, asthma, and bacteria-caused stomach ulcers.",
+        "recipe": "https://www.yummly.com/recipes?q=fresh%20broccoli%20sprouts&gs=2a6ab8"
+},
+{
+"id": "fenugreek",
+        "name": "Fenugreek",
+        "nomenclature": "Trigonella foenum-graecum",
+        "description": "Fenugreek sprouts are famous for their nutritional content. While they contain an abundance of minerals, the standout is undoubtedly iron. In one cup of fenugreek seeds, 8 milligrams of iron is provided, meaning much of a person's daily iron consumption can be derived solely from fenugreek. Moreover, fenugreek is rich in fiber and can help lower blood pressure and cholesterol, promote healthy blood sugar, and boost weight loss. Last but not least, fenugreek has a high protein content that supports skin, muscle, cartilage, and healthy bone production.",
+        "recipe": "https://sproutpeople.org/fenugreek-curry/"
+},
+{
+"id": "garbanzo bean",
+        "name": "Garbanzo Bean",
+        "nomenclature": "Cicer arietinum",
+        "description": "Chickpea sprouts (A.K.A. garbanzo bean sprouts) taste great when cooked into soups or veggie burgers. They are also commonly blended to make a quick and tasty hummus. In terms of nutrition, one cup of chickpea sprouts offers 84 grams of carbs, 36 grams of protein, 8 grams of fat, and substantial quantities of vitamin C and iron. Interestingly, sprouting chickpeas increase their isoflavone content. Isoflavone mimics the hormone estrogen, and it helps in reducing menopausal symptoms in women. Further research has shown that chickpea sprouts minimize bone loss, lower cholesterol and triglyceride levels, and increase HDL (good) cholesterol levels. These benefits suggest they are useful for individuals with diseases such as osteoporosis or heart disease.",
+        "recipe": "https://thehealthyfoodie.com/raw-sprouted-chickpea-hummus/e"
+},
+{
+"id": "lentil",
+        "name": "Lentil",
+        "nomenclature": "Lens culinaris",
+        "description": "Lentil sprouts have an earthy, slightly peppery taste that fits perfectly with other fresh vegetables. Sprouting lentils boosts their nutritional content, especially with vitamins B and C. Lentil sprouts also pack a nutritional punch with their macronutrients of proteins, carbohydrates, and fats and their minerals of copper and zinc. They are often consumed to help improve eyesight, treat anemia, strengthen hair, assist digestion, improve skin health, and prevent erectile dysfunction.",
+        "recipe": "https://www.yummly.com/recipes?q=sprouted+lentils&taste-pref-appended=true"
+},
+{
+"id": "mung bean",
+        "name": "Mung Bean",
+        "nomenclature": "Vigna radiata",
+        "description": "Originating in India, mung beans have spread around the world to share their plentiful nutritional benefits. When sprouted, mung beans increase their capacity of essential amino acids and antioxidants. This improves their ability to lower chronic disease risk by neutralizing harmful molecules known as free radicals. In addition, they are also used to prevent heatstroke, lower bad LDL cholesterol levels, and even reduce blood pressure. However, besides nutritional benefits, mung beans also taste good with their fresh and slightly sweet flavor that pairs wells with salads, soups, and stir-frys.",
+        "recipe": "https://www.yummly.com/recipes?q=mung+bean+sprouts&taste-pref-appended=true"
+},
+{
+"id": "onion",
+        "name": "Onion",
+        "nomenclature": "Allium cepa",
+        "description": "Onion sprouts are famous for their black bases and long stems. They have a high nutritional value, as they are rich in vitamins A, B, C, and E and have minerals like calcium, iron, magnesium, niacin, phosphorus, potassium, and zinc. Onion sprouts are often consumed by individuals that wish to increase enzymatic activity in their body, prevent anemia, lower cholesterol, reduce blood pressure, and lose weight. As for taste, they have a nutty and slightly sweet flavor and are less pungent than a full-grown onion. They have a texture that is delicate and crunchy.",
+        "recipe": "https://www.yummly.com/recipes?q=onion+sprouts&taste-pref-appended=true"
+},
+{
+"id": "pea",
+        "name": "Pea",
+        "nomenclature": "Pisum sativum",
+        "description": "Pea sprouts have a great flavor that's somewhat sweet. They pair well with leafy greens in salads, but they also taste great when stir-fried. When looking for peas, note that both yellow and green peas can be sprouted. In terms of nutrition, one cup of pea sprouts has 33 grams of carbs, 11 grams of protein, 1 gram of fat, and significant amounts of vitamin C and iron. Moreover, sprouted peas have twice the amount of folate than raw peas. Folate can help prevent heart issues and neural tube defects.",
+        "recipe": "https://cookingwithawallflower.com/2015/05/05/garlic-pea-sprouts-stir-fry/"
+},
+{
+"id": "radish",
+        "name": "Radish",
+        "nomenclature": "Raphanus sativus",
+        "description": "Radish sprouts have an exciting spicy flavor that can bring some heat to any dish. They are packed with vitamins A, B, C, E, and K and have certain minerals like calcium iron, magnesium, phosphorus, potassium, and zinc. They are also known for their cancer-fighting properties due to their high concentration of essential amino acids and chlorophyll. Radish sprouts are visually appealing as well, with their beautiful pink stems.",
+        "recipe": "https://www.yummly.com/recipes?q=radish%20sprouts&gs=0dc1e6"
+},
+{
+"id": "red cabbage",
+        "name": "Red Cabbage",
+        "nomenclature": "Brassica oleracea var. capitata",
+        "description": "Red cabbage sprouts are purple and brown and grow a sprout stem that reaches 5-12 cm in height. They are famous for their fresh and sweet flavor that is slightly bitter. In addition, they have a crunchy texture that goes well with salads and sandwiches. In terms of nutrition, red cabbage sprouts are consumed for stomach protection and their rich antioxidant content.",
+        "recipe": "https://recipes.timesofindia.com/us/recipes/cabbage-sprouts/rs58819606.cms"
+},
+{
+"id": "red clover",
+        "name": "Red Clover",
+        "nomenclature": "Trifolium pratense",
+        "description": "Red clover sprouts are regarded as the new alfalfa, with their similar appearance and taste. Although they have a mild flavor and crunch, they are packed with nutritional benefits. They contain vitamins A, B, C, E and K and minerals like calcium, iron, magnesium, phosphorus, potassium, and zinc. Red clover sprouts are said to have beneficial effects on breast and prostate cancers, menopausal symptoms, osteoporosis, stroke, and neurodegeneration. Red clover sprouts are especially useful for treating cancer, as they are rich in genistein, a compound that prevents new blood vessels from forming in tumors.",
+        "recipe": "https://www.avogel.co.uk/food/recipes/mixed-bean-salad-with-little-radish-&-red-clover-sprouts/"
+},
+{
+"id": "soybean",
+        "name": "Soybean",
+        "nomenclature": "Glycine max",
+        "description": "Soybean sprouts are popular in Asian cuisine, especially in Korea. They possess nutritional components like riboflavin, isoflavones, niacin, amino acids, crude proteins, and lipids. They also have an abundant mineral collection, with minerals like zinc, sodium, potassium, copper, phosphorus, iron, manganese, and magnesium. Soybean sprouts are often consumed to reduce the risk of cancer and cardiovascular diseases due to their antioxidant properties. In general, soybean sprouts have a nutty taste and thick stems that suit well in curries and soups.",
+        "recipe": "https://www.yummly.com/recipes?q=soybean+sprouts&taste-pref-appended=true"
+},
+{
+"id": "sunflower",
+        "name": "Sunflower",
+        "nomenclature": "Helianthus annuus L.",
+        "description": "Sunflower sprouts have multiple nutritional benefits. To start, they have high amounts of zinc, which can help boost fertility levels in men. Moreover, they are rich in folate, a necessary B vitamin essential for developing nervous systems. They also have high amounts of vitamin E, which can work with vitamin C in our bodies to reduce blood pressure and prevent heart disease. Finally, sunflower sprouts are also a great source of vegetarian protein. Sunflower sprouts have a great taste, with a blend of nuttiness and a slight lemon flavor.",
+        "recipe": "https://www.yummly.com/recipes?q=sunflower+sprouts+&taste-pref-appended=true"
+},
+{
+"id": "wheatgrass",
+        "name": "Wheatgrass",
+        "nomenclature": "Thinopyrum intermedium",
+        "description": "Wheatgrass has taken the 'superfood' market by storm with the widespread consumption of wheatgrass shots. If made right, wheatgrass can have a slightly sweet taste, similar to green tea. Its nutritional benefits are also essential to notice, as it contains high amounts of iron, calcium, magnesium, phytonutrients, and proteins. They also provide many vitamins, like vitamins A, C, E, K, and B. Individuals often consume wheatgrass as it aids in digestion, boosts metabolism, lowers cholesterol, improves the immune system, lowers blood pressure, and in general, provides more energy.",
+        "recipe": "https://www.yummly.com/recipes?q=wheatgrass&taste-pref-appended=true"
+}
+]

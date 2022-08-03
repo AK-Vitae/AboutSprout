@@ -8,7 +8,7 @@
 import SwiftUI
 
 @MainActor class HomeViewModel: ObservableObject {
-    @Published private(set) var sprouts: [Sprout] = []
+    @Published var sprouts: [Sprout] = []
     
     func fetchSprouts() {
         // Call NetworkManager or Api Service

@@ -8,8 +8,6 @@
 
 import SwiftUI
 
-// MARK: - RECIPE MODEL
-
 struct Recipe: Identifiable {
     var id = UUID()
     var title: String

@@ -9,13 +9,14 @@
 import SwiftUI
 
 struct InstructionsView: View {
-    let instructions: [Instruction] = Bundle.main.decode("steps.json")
+    @StateObject var growingInstructionsViewModel = GrowingInstructionsViewModel()
+    
     var body: some View {
 //        GeometryReader { geo in
             NavigationView {
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack(spacing: 30){
-                        ForEach(self.instructions) { instruction in
+                        ForEach(self.growingInstructionsViewModel.instructions) { instruction in
                             InstructionCardView(instruction: instruction)
                                 .padding(.top, 25)
                                 .padding(.leading, 10)

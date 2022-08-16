@@ -8,11 +8,10 @@ var recipeSchema = new Schema({
 });
 
 var sproutSchema = new Schema({
-  id: String,
   name: String,
   nomenclature: String,
   description: String,
-  //recipes: [recipeSchema],
+  recipes: [recipeSchema],
   date: String,
 });
 

@@ -1,8 +1,11 @@
 const express = require("express");
 const mongoose = require("mongoose");
-var app = express();
-var Data = require("./sproutSchema");
+const bodyParser = require("body-parser");
 
+const app = express();
+app.use(bodyParser.json());
+
+var Data = require("./sproutSchema");
 mongoose.connect("mongodb://localhost/newDB");
 
 mongoose.connection
@@ -17,12 +20,11 @@ mongoose.connection
 // POST request
 app.post("/create", (request, response) => {
   var sprout = new Data({
-    id: request.get("id"),
-    name: request.get("name"),
-    nomenclature: request.get("nomenclature"),
-    description: request.get("description"),
-    //recipes: request.get("recipes"),
-    date: request.get("date"),
+    name: request.body.name,
+    nomenclature: request.body.nomenclature,
+    description: request.body.description,
+    recipes: request.body.recipes,
+    date: request.body.date,
   });
 
   sprout.save().then(() => {
@@ -50,3 +52,8 @@ var server = app.listen(8081, "192.168.68.129", () => {
 
 // FETCH ALL SPROUTS
 // GET request
+app.get("/fetch", (request, response) => {
+  Data.find({}).then((DBItems) => {
+    response.send(DBItems);
+  });
+});

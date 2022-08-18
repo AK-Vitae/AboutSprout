@@ -15,6 +15,4 @@ var sproutSchema = new Schema({
   date: String,
 });
 
-const Data = mongoose.model("Data", sproutSchema);
-
-module.exports = Data;
+module.exports = mongoose.model("Sprout", sproutSchema);

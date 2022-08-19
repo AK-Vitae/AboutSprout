@@ -11,7 +11,7 @@ import SwiftUI
 struct AppView: View {
     var body: some View {
         TabView() {
-            HomeView()
+            HomeView2()
                 .tabItem{
                     Image(systemName: "house")
                         .font(.system(size: 30))

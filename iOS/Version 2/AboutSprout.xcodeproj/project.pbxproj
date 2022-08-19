@@ -38,6 +38,8 @@
 		03883D8C2899DAB900BDC026 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D8B2899DAB900BDC026 /* RecipesViewModel.swift */; };
 		03883D912899DE9200BDC026 /* HomeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D902899DE9200BDC026 /* HomeView2.swift */; };
 		03883D93289A11EF00BDC026 /* AppInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D92289A11EF00BDC026 /* AppInformation.swift */; };
+		03D3ECC728AEF507002FFAC1 /* SproutDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D3ECC628AEF507002FFAC1 /* SproutDataService.swift */; };
+		03D3ECC928AEF89D002FFAC1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D3ECC828AEF89D002FFAC1 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +75,8 @@
 		03883D8B2899DAB900BDC026 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
 		03883D902899DE9200BDC026 /* HomeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView2.swift; sourceTree = "<group>"; };
 		03883D92289A11EF00BDC026 /* AppInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformation.swift; sourceTree = "<group>"; };
+		03D3ECC628AEF507002FFAC1 /* SproutDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SproutDataService.swift; sourceTree = "<group>"; };
+		03D3ECC828AEF89D002FFAC1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +196,8 @@
 		03883D842898777900BDC026 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				03D3ECC628AEF507002FFAC1 /* SproutDataService.swift */,
+				03D3ECC828AEF89D002FFAC1 /* NetworkManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -290,6 +296,7 @@
 				03883D6C2898761100BDC026 /* Instruction.swift in Sources */,
 				03883D402896FD4D00BDC026 /* AboutSproutApp.swift in Sources */,
 				03883D712898761100BDC026 /* Bundle-Decodable.swift in Sources */,
+				03D3ECC928AEF89D002FFAC1 /* NetworkManager.swift in Sources */,
 				03883D7E2898761100BDC026 /* RecipeDetailView.swift in Sources */,
 				03883D862899D9B100BDC026 /* AboutViewModel.swift in Sources */,
 				03883D93289A11EF00BDC026 /* AppInformation.swift in Sources */,
@@ -298,6 +305,7 @@
 				03883D732898761100BDC026 /* RecipeData.swift in Sources */,
 				03883D7A2898761100BDC026 /* HomeView.swift in Sources */,
 				03883D6E2898761100BDC026 /* ViewExtensions.swift in Sources */,
+				03D3ECC728AEF507002FFAC1 /* SproutDataService.swift in Sources */,
 				03883D6D2898761100BDC026 /* Sprout.swift in Sources */,
 				03883D7B2898761100BDC026 /* RecipeCardTestView.swift in Sources */,
 				03883D7D2898761100BDC026 /* RecipeCardView.swift in Sources */,

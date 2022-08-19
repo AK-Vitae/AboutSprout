@@ -15,11 +15,11 @@
 		03883D6E2898761100BDC026 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D552898761000BDC026 /* ViewExtensions.swift */; };
 		03883D6F2898761100BDC026 /* TabBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D562898761000BDC026 /* TabBarModifier.swift */; };
 		03883D702898761100BDC026 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D572898761000BDC026 /* NavigationBarModifier.swift */; };
-		03883D712898761100BDC026 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D582898761000BDC026 /* Bundle-Decodable.swift */; };
+		03883D712898761100BDC026 /* Bundle+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D582898761000BDC026 /* Bundle+Decodable.swift */; };
 		03883D722898761100BDC026 /* tempSprouts.json in Resources */ = {isa = PBXBuildFile; fileRef = 03883D5A2898761100BDC026 /* tempSprouts.json */; };
 		03883D732898761100BDC026 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D5B2898761100BDC026 /* RecipeData.swift */; };
 		03883D742898761100BDC026 /* growingInstructions.json in Resources */ = {isa = PBXBuildFile; fileRef = 03883D5C2898761100BDC026 /* growingInstructions.json */; };
-		03883D752898761100BDC026 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D5E2898761100BDC026 /* AboutView.swift */; };
+		03883D752898761100BDC026 /* AppInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D5E2898761100BDC026 /* AppInformationView.swift */; };
 		03883D762898761100BDC026 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D5F2898761100BDC026 /* AppView.swift */; };
 		03883D772898761100BDC026 /* SproutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D602898761100BDC026 /* SproutView.swift */; };
 		03883D782898761100BDC026 /* SproutRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D612898761100BDC026 /* SproutRow.swift */; };
@@ -32,7 +32,7 @@
 		03883D7F2898761100BDC026 /* RecipeTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D682898761100BDC026 /* RecipeTestView.swift */; };
 		03883D802898761100BDC026 /* InstructionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D692898761100BDC026 /* InstructionCardView.swift */; };
 		03883D822898765800BDC026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03883D812898765800BDC026 /* Assets.xcassets */; };
-		03883D862899D9B100BDC026 /* AboutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D852899D9B100BDC026 /* AboutViewModel.swift */; };
+		03883D862899D9B100BDC026 /* AppInformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D852899D9B100BDC026 /* AppInformationViewModel.swift */; };
 		03883D882899DA5F00BDC026 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D872899DA5F00BDC026 /* HomeViewModel.swift */; };
 		03883D8A2899DAA300BDC026 /* GrowingInstructionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D892899DAA300BDC026 /* GrowingInstructionsViewModel.swift */; };
 		03883D8C2899DAB900BDC026 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D8B2899DAB900BDC026 /* RecipesViewModel.swift */; };
@@ -40,6 +40,9 @@
 		03883D93289A11EF00BDC026 /* AppInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03883D92289A11EF00BDC026 /* AppInformation.swift */; };
 		03D3ECC728AEF507002FFAC1 /* SproutDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D3ECC628AEF507002FFAC1 /* SproutDataService.swift */; };
 		03D3ECC928AEF89D002FFAC1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D3ECC828AEF89D002FFAC1 /* NetworkManager.swift */; };
+		03D3ECCC28AFD933002FFAC1 /* GrowingInstructionsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D3ECCB28AFD933002FFAC1 /* GrowingInstructionsDataService.swift */; };
+		03D3ECCE28AFE1C3002FFAC1 /* appInformation.json in Resources */ = {isa = PBXBuildFile; fileRef = 03D3ECCD28AFE1C2002FFAC1 /* appInformation.json */; };
+		03D3ECD028AFE2CE002FFAC1 /* AppInformationDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D3ECCF28AFE2CE002FFAC1 /* AppInformationDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,11 +55,11 @@
 		03883D552898761000BDC026 /* ViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		03883D562898761000BDC026 /* TabBarModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarModifier.swift; sourceTree = "<group>"; };
 		03883D572898761000BDC026 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
-		03883D582898761000BDC026 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		03883D582898761000BDC026 /* Bundle+Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Decodable.swift"; sourceTree = "<group>"; };
 		03883D5A2898761100BDC026 /* tempSprouts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tempSprouts.json; sourceTree = "<group>"; };
 		03883D5B2898761100BDC026 /* RecipeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 		03883D5C2898761100BDC026 /* growingInstructions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = growingInstructions.json; sourceTree = "<group>"; };
-		03883D5E2898761100BDC026 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		03883D5E2898761100BDC026 /* AppInformationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInformationView.swift; sourceTree = "<group>"; };
 		03883D5F2898761100BDC026 /* AppView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		03883D602898761100BDC026 /* SproutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SproutView.swift; sourceTree = "<group>"; };
 		03883D612898761100BDC026 /* SproutRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SproutRow.swift; sourceTree = "<group>"; };
@@ -69,7 +72,7 @@
 		03883D682898761100BDC026 /* RecipeTestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeTestView.swift; sourceTree = "<group>"; };
 		03883D692898761100BDC026 /* InstructionCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionCardView.swift; sourceTree = "<group>"; };
 		03883D812898765800BDC026 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		03883D852899D9B100BDC026 /* AboutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewModel.swift; sourceTree = "<group>"; };
+		03883D852899D9B100BDC026 /* AppInformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationViewModel.swift; sourceTree = "<group>"; };
 		03883D872899DA5F00BDC026 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		03883D892899DAA300BDC026 /* GrowingInstructionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingInstructionsViewModel.swift; sourceTree = "<group>"; };
 		03883D8B2899DAB900BDC026 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
@@ -77,6 +80,9 @@
 		03883D92289A11EF00BDC026 /* AppInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformation.swift; sourceTree = "<group>"; };
 		03D3ECC628AEF507002FFAC1 /* SproutDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SproutDataService.swift; sourceTree = "<group>"; };
 		03D3ECC828AEF89D002FFAC1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		03D3ECCB28AFD933002FFAC1 /* GrowingInstructionsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingInstructionsDataService.swift; sourceTree = "<group>"; };
+		03D3ECCD28AFE1C2002FFAC1 /* appInformation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = appInformation.json; sourceTree = "<group>"; };
+		03D3ECCF28AFE2CE002FFAC1 /* AppInformationDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,13 +115,13 @@
 		03883D3E2896FD4D00BDC026 /* AboutSprout */ = {
 			isa = PBXGroup;
 			children = (
+				03883D842898777900BDC026 /* Services */,
 				03883D3F2896FD4D00BDC026 /* AboutSproutApp.swift */,
 				03883D592898761100BDC026 /* Hardcoded Data */,
 				03883D502898761000BDC026 /* Models */,
 				03883D5D2898761100BDC026 /* Views */,
 				03883D8D2899DE3D00BDC026 /* Views2 */,
 				03883D832898775900BDC026 /* ViewModels */,
-				03883D842898777900BDC026 /* Services */,
 				03883D542898761000BDC026 /* Extensions & Modifiers */,
 				03883D812898765800BDC026 /* Assets.xcassets */,
 				03883D452896FD5200BDC026 /* Preview Content */,
@@ -148,7 +154,7 @@
 				03883D552898761000BDC026 /* ViewExtensions.swift */,
 				03883D562898761000BDC026 /* TabBarModifier.swift */,
 				03883D572898761000BDC026 /* NavigationBarModifier.swift */,
-				03883D582898761000BDC026 /* Bundle-Decodable.swift */,
+				03883D582898761000BDC026 /* Bundle+Decodable.swift */,
 			);
 			path = "Extensions & Modifiers";
 			sourceTree = "<group>";
@@ -159,6 +165,7 @@
 				03883D5A2898761100BDC026 /* tempSprouts.json */,
 				03883D5B2898761100BDC026 /* RecipeData.swift */,
 				03883D5C2898761100BDC026 /* growingInstructions.json */,
+				03D3ECCD28AFE1C2002FFAC1 /* appInformation.json */,
 			);
 			path = "Hardcoded Data";
 			sourceTree = "<group>";
@@ -166,7 +173,7 @@
 		03883D5D2898761100BDC026 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				03883D5E2898761100BDC026 /* AboutView.swift */,
+				03883D5E2898761100BDC026 /* AppInformationView.swift */,
 				03883D5F2898761100BDC026 /* AppView.swift */,
 				03883D632898761100BDC026 /* HomeView.swift */,
 				03883D692898761100BDC026 /* InstructionCardView.swift */,
@@ -185,7 +192,7 @@
 		03883D832898775900BDC026 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				03883D852899D9B100BDC026 /* AboutViewModel.swift */,
+				03883D852899D9B100BDC026 /* AppInformationViewModel.swift */,
 				03883D872899DA5F00BDC026 /* HomeViewModel.swift */,
 				03883D892899DAA300BDC026 /* GrowingInstructionsViewModel.swift */,
 				03883D8B2899DAB900BDC026 /* RecipesViewModel.swift */,
@@ -198,6 +205,8 @@
 			children = (
 				03D3ECC628AEF507002FFAC1 /* SproutDataService.swift */,
 				03D3ECC828AEF89D002FFAC1 /* NetworkManager.swift */,
+				03D3ECCB28AFD933002FFAC1 /* GrowingInstructionsDataService.swift */,
+				03D3ECCF28AFE2CE002FFAC1 /* AppInformationDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -272,6 +281,7 @@
 				03883D742898761100BDC026 /* growingInstructions.json in Resources */,
 				03883D722898761100BDC026 /* tempSprouts.json in Resources */,
 				03883D822898765800BDC026 /* Assets.xcassets in Resources */,
+				03D3ECCE28AFE1C3002FFAC1 /* appInformation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +296,7 @@
 				03883D6B2898761100BDC026 /* Recipe.swift in Sources */,
 				03883D792898761100BDC026 /* InstructionsView.swift in Sources */,
 				03883D772898761100BDC026 /* SproutView.swift in Sources */,
-				03883D752898761100BDC026 /* AboutView.swift in Sources */,
+				03883D752898761100BDC026 /* AppInformationView.swift in Sources */,
 				03883D882899DA5F00BDC026 /* HomeViewModel.swift in Sources */,
 				03883D702898761100BDC026 /* NavigationBarModifier.swift in Sources */,
 				03883D8C2899DAB900BDC026 /* RecipesViewModel.swift in Sources */,
@@ -295,13 +305,15 @@
 				03883D7F2898761100BDC026 /* RecipeTestView.swift in Sources */,
 				03883D6C2898761100BDC026 /* Instruction.swift in Sources */,
 				03883D402896FD4D00BDC026 /* AboutSproutApp.swift in Sources */,
-				03883D712898761100BDC026 /* Bundle-Decodable.swift in Sources */,
+				03883D712898761100BDC026 /* Bundle+Decodable.swift in Sources */,
 				03D3ECC928AEF89D002FFAC1 /* NetworkManager.swift in Sources */,
 				03883D7E2898761100BDC026 /* RecipeDetailView.swift in Sources */,
-				03883D862899D9B100BDC026 /* AboutViewModel.swift in Sources */,
+				03883D862899D9B100BDC026 /* AppInformationViewModel.swift in Sources */,
 				03883D93289A11EF00BDC026 /* AppInformation.swift in Sources */,
 				03883D6F2898761100BDC026 /* TabBarModifier.swift in Sources */,
 				03883D762898761100BDC026 /* AppView.swift in Sources */,
+				03D3ECD028AFE2CE002FFAC1 /* AppInformationDataService.swift in Sources */,
+				03D3ECCC28AFD933002FFAC1 /* GrowingInstructionsDataService.swift in Sources */,
 				03883D732898761100BDC026 /* RecipeData.swift in Sources */,
 				03883D7A2898761100BDC026 /* HomeView.swift in Sources */,
 				03883D6E2898761100BDC026 /* ViewExtensions.swift in Sources */,

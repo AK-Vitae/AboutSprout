@@ -29,7 +29,7 @@ struct AppView: View {
                         .font(.system(size: 30))
                     Text("Recipes")
             }
-            AboutView()
+            AppInformationView()
                 .tabItem{
                     Image(systemName: "info.circle")
                         .font(.system(size: 30))

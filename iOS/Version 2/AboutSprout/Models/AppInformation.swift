@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct AppInformation {
+struct AppInformation: Decodable {
     let aboutText: String
     let disclaimerText:  String
 }

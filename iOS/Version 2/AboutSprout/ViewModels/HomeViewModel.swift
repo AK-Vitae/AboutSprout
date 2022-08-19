@@ -26,8 +26,4 @@ import Combine
             }
             .store(in: &cancellables)
     }
-    
-    func fetchSprouts() {
-        
-    }
 }

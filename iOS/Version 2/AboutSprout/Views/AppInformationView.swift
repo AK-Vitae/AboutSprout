@@ -8,8 +8,8 @@
 
 import SwiftUI
 
-struct AboutView: View {
-    @StateObject var aboutViewModel = AboutViewModel()
+struct AppInformationView: View {
+    @StateObject var aboutViewModel = AppInformationViewModel()
     
     var body: some View {
         ScrollView{
@@ -23,7 +23,7 @@ struct AboutView: View {
                     .scaledToFit()
                     .padding(.top)
                 Section(footer: Disclaimer())  {
-                    Text(aboutViewModel.appInformation.aboutText)
+                    Text(aboutViewModel.appInformation?.aboutText ?? "")
                         .bold()
                         .padding([.leading, .trailing,.bottom])
                         .fixedSize(horizontal: false, vertical: true)
@@ -36,14 +36,14 @@ struct AboutView: View {
 }
 
 struct Disclaimer: View {
-    @StateObject var aboutViewModel = AboutViewModel()
+    @StateObject var aboutViewModel = AppInformationViewModel()
     
     var body: some View{
         VStack(alignment: .leading, spacing: 20){
             Text("Disclaimer")
                 .font(.headline)
                 .padding([.leading, .trailing])
-            Text(aboutViewModel.appInformation.disclaimerText)
+            Text(aboutViewModel.appInformation?.disclaimerText ?? "")
                 .padding([.leading, .trailing,.bottom])
         }
         .fixedSize(horizontal: false, vertical: true)
@@ -56,6 +56,6 @@ struct Disclaimer: View {
 
 struct AboutView_Previews: PreviewProvider {
     static var previews: some View {
-        AboutView()
+        AppInformationView()
     }
 }

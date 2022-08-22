@@ -115,8 +115,8 @@
 		03883D3E2896FD4D00BDC026 /* AboutSprout */ = {
 			isa = PBXGroup;
 			children = (
-				03883D842898777900BDC026 /* Services */,
 				03883D3F2896FD4D00BDC026 /* AboutSproutApp.swift */,
+				03883D842898777900BDC026 /* Services */,
 				03883D592898761100BDC026 /* Hardcoded Data */,
 				03883D502898761000BDC026 /* Models */,
 				03883D5D2898761100BDC026 /* Views */,
